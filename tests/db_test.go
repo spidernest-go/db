@@ -31,16 +31,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/mongo"
+	"github.com/spidernest-go/db/mssql"
+	"github.com/spidernest-go/db/mysql"
+	"github.com/spidernest-go/db/postgresql"
+	"github.com/spidernest-go/db/ql"
+	"github.com/spidernest-go/db/sqlite"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
-	"upper.io/db.v3/mongo"
-	"upper.io/db.v3/mssql"
-	"upper.io/db.v3/mysql"
-	"upper.io/db.v3/postgresql"
-	"upper.io/db.v3/ql"
-	"upper.io/db.v3/sqlite"
 )
 
 var wrappers = []string{

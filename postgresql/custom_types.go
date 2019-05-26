@@ -28,7 +28,7 @@ import (
 	"reflect"
 
 	"github.com/lib/pq"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 )
 
 // Array returns a sqlbuilder.ScannerValuer for any given slice. Slice elements

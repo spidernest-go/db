@@ -32,9 +32,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spidernest-go/db"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
 )
 
 type artistType struct {

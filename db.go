@@ -27,7 +27,7 @@
 // driver. upper-db supports the MySQL, PostgreSQL, SQLite and QL databases and
 // provides partial support (CRUD, no transactions) for MongoDB.
 //
-//  go get upper.io/db.v3
+//  go get github.com/spidernest-go/db
 //
 // Usage
 //
@@ -36,7 +36,7 @@
 //  import (
 //  	"log"
 //
-//  	"upper.io/db.v3/postgresql" // Imports the postgresql adapter.
+//  	"github.com/spidernest-go/db/postgresql" // Imports the postgresql adapter.
 //  )
 //
 //  var settings = postgresql.ConnectionURL{
@@ -73,5 +73,5 @@
 //  }
 //
 // See more usage examples and documentation for users at
-// https://upper.io/db.v3.
-package db // import "upper.io/db.v3"
+// https://github.com/spidernest-go/db.
+package db // import "github.com/spidernest-go/db"

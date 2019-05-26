@@ -24,8 +24,8 @@ package mssql
 import (
 	"context"
 
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/spidernest-go/db/internal/sqladapter"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 )
 
 type tx struct {

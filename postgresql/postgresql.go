@@ -19,15 +19,15 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-package postgresql // import "upper.io/db.v3/postgresql"
+package postgresql // import "github.com/spidernest-go/db/postgresql"
 
 import (
 	"database/sql"
 
-	"upper.io/db.v3"
+	"github.com/spidernest-go/db"
 
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/spidernest-go/db/internal/sqladapter"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 )
 
 const sqlDriver = `postgres`

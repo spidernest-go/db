@@ -35,10 +35,10 @@ import (
 	"time"
 
 	"github.com/satori/go.uuid"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/sqladapter"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 	"github.com/stretchr/testify/assert"
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
 )
 
 const (

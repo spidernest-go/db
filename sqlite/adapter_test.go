@@ -26,7 +26,7 @@ import (
 	"database/sql"
 	"os"
 
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 )
 
 const (

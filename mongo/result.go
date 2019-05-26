@@ -30,11 +30,11 @@ import (
 
 	"encoding/json"
 
+	"github.com/spidernest-go/db"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
 
-	"upper.io/db.v3/internal/immutable"
+	"github.com/spidernest-go/db/internal/immutable"
 )
 
 type resultQuery struct {

@@ -22,9 +22,9 @@
 package postgresql
 
 import (
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/cache"
-	"upper.io/db.v3/internal/sqladapter/exql"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/cache"
+	"github.com/spidernest-go/db/internal/sqladapter/exql"
 )
 
 const (

@@ -28,9 +28,9 @@ import (
 
 	"reflect"
 
+	"github.com/spidernest-go/db"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"upper.io/db.v3"
 )
 
 // Collection represents a mongodb collection.

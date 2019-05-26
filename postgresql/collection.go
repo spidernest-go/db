@@ -24,8 +24,8 @@ package postgresql
 import (
 	"database/sql"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/sqladapter"
 )
 
 // collection is the actual implementation of a collection.

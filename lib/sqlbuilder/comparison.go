@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter/exql"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/sqladapter/exql"
 )
 
 var comparisonOperators = map[db.ComparisonOperator]string{

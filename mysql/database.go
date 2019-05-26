@@ -20,7 +20,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // Package mysql wraps the github.com/go-sql-driver/mysql MySQL driver. See
-// https://upper.io/db.v3/mysql for documentation, particularities and usage
+// https://github.com/spidernest-go/db/mysql for documentation, particularities and usage
 // examples.
 package mysql
 
@@ -35,11 +35,11 @@ import (
 	"database/sql"
 
 	_ "github.com/go-sql-driver/mysql" // MySQL driver.
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/internal/sqladapter/compat"
-	"upper.io/db.v3/internal/sqladapter/exql"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/sqladapter"
+	"github.com/spidernest-go/db/internal/sqladapter/compat"
+	"github.com/spidernest-go/db/internal/sqladapter/exql"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 )
 
 // database is the actual implementation of Database

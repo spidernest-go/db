@@ -25,9 +25,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/immutable"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/immutable"
+	"github.com/spidernest-go/db/lib/sqlbuilder"
 )
 
 type Result struct {

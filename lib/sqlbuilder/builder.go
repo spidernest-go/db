@@ -34,10 +34,10 @@ import (
 	"strconv"
 	"strings"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter/compat"
-	"upper.io/db.v3/internal/sqladapter/exql"
-	"upper.io/db.v3/lib/reflectx"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/sqladapter/compat"
+	"github.com/spidernest-go/db/internal/sqladapter/exql"
+	"github.com/spidernest-go/db/lib/reflectx"
 )
 
 // MapOptions represents options for the mapper.

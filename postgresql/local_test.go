@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"testing"
 
+	"github.com/spidernest-go/db"
 	"github.com/stretchr/testify/assert"
-	"upper.io/db.v3"
 )
 
 func TestStringAndInt64Array(t *testing.T) {

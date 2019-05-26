@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"sync"
 
-	"upper.io/db.v3"
+	"github.com/spidernest-go/db"
 )
 
 var (

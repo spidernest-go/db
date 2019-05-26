@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/spidernest-go/db"
 	"github.com/stretchr/testify/assert"
-	"upper.io/db.v3"
 )
 
 func TestSelect(t *testing.T) {

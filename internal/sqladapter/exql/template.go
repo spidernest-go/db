@@ -6,8 +6,8 @@ import (
 	"sync"
 	"text/template"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/cache"
+	"github.com/spidernest-go/db"
+	"github.com/spidernest-go/db/internal/cache"
 )
 
 // Type is the type of SQL query the statement represents.
